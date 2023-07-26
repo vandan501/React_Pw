@@ -1,0 +1,44 @@
+.Counter{
+    width: 900px;
+    height: 600px;
+    background-color: aqua;
+    margin-top: 35px;
+}
+.buttonContainer{
+    position: relative;
+    top: 300px;
+    gap: 50px;
+    margin: auto;
+    display: flex;
+    width: 400px;
+    height: 50px;
+    margin-top: 35px;
+}
+.ans{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    top: 230px;
+    color: rgb(7, 7, 86);
+margin: auto;
+text-align: center;
+font-size: 65px;
+font-weight: bolder;
+}
+button{
+    width: 200px;
+    font-size: 20px;
+    height: 50px;
+    background-color: rgb(27, 54, 177);
+    color: wheat;
+    border: none;
+}
+button:hover{
+    width: 200px;
+    box-shadow: 0px 1px 2px 3px;
+    scale: 1.1;
+    font-size: 20px;
+    height: 40px;
+background-color: gold;
+    color: black;
+}
